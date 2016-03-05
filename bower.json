@@ -1,0 +1,26 @@
+{
+  "name": "lastdate",
+  "description": "A minimal modular date time picker with different calendar support —",
+  "main": "index.js",
+  "authors": [
+    "Iman Mohamadi <Iman@jsDecorator.com> (http://jsdecorator.com)"
+  ],
+  "license": "GPL-2.0",
+  "keywords": [
+    "datepicker",
+    "datetime",
+    "picker",
+    "datetime"
+  ],
+  "homepage": "https://github.com/ImanMh/lastDate",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "lastdate",
+  "version": "0.0.0",
+  "description": " A minimal modular date time picker with different calendar support — ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImanMh/lastDate.git"
+  },
+  "keywords": [
+    "datepicker",
+    "datetime",
+    "picker",
+    "datetime"
+  ],
+  "author": "Iman Mohamadi <Iman@jsDecorator.com> (http://jsdecorator.com)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ImanMh/lastDate/issues"
+  },
+  "homepage": "https://github.com/ImanMh/lastDate#readme"
+}
