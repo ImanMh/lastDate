@@ -1,0 +1,9 @@
+#OSX
+.DS_Store
+
+#IDEs
+.idea 
+
+#automatically downloaded
+bower_components
+node_modules
