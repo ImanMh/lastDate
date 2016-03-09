@@ -1,1 +1,1 @@
-assert = chai.assert;
+window.assert = chai.assert;
