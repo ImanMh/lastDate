@@ -1,7 +1,7 @@
 {
   "name": "lastdate",
   "description": "A minimal modular date time picker with different calendar support —",
-  "main": "index.js",
+  "main": "src/main.js",
   "authors": [
     "Iman Mohamadi <Iman@jsDecorator.com> (http://jsdecorator.com)"
   ],
@@ -13,14 +13,15 @@
     "datetime"
   ],
   "homepage": "https://github.com/ImanMh/lastDate",
-  "moduleType": [
-    "amd"
-  ],
+  "moduleType": [],
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
 }

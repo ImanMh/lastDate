@@ -1,0 +1,11 @@
+{
+  "framework": "mocha",
+  "src_files": [
+    "node_modules/chai/chai.js",
+    "bower_components/jquery/dist/jquery.min.js",
+    "dist/main.js",
+    "test/setup.js",
+    "test/*.test.js"
+  ],
+  "ignore_missing_launchers": true
+}
