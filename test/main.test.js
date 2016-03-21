@@ -18,6 +18,12 @@ describe('Testing Environment', function () {
       assert.ok(typeof $ !== 'undefined');
     });
   });
+  
+  describe('dependencies are loaded', function () {
+    it('should see jQuery global', function () {
+      assert.ok(typeof jQuery === 'function');
+    });
+  });
 });
 
 describe('Datepicker test suite', function () {
