@@ -3,7 +3,7 @@
 	'use strict';
 
 	$.extend({
-		pluginSetup : function(options) {
+		lastdateSetup : function(options) {
 			return $.extend(defaults, options);
 		}
 	}).fn.extend({

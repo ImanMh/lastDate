@@ -38,9 +38,20 @@ describe('Datepicker test suite', function () {
       var $target = makeTestElement(),
           defaultOptions = $target.lastdate('getOptions');
 
-          assert.ok(defaultOptions.testTrue === true);
+      assert.ok(defaultOptions.testTrue === true);
       
-          $target.remove();
+      $target.remove();
+    });
+    
+    it('should be able to change global default values by plugin setup method', function () {
+      var $target = makeTestElement();
+      $.lastdateSetup({testTrue: false});
+      var defaultOptions = $target.lastdate('getOptions');
+      
+      assert.ok(!defaultOptions.testTrue);
+
+      $.lastdateSetup({testTrue: true});
+      $target.remove();
     });
   });
   
