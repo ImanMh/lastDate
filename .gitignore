@@ -7,3 +7,6 @@
 #automatically downloaded
 bower_components
 node_modules
+
+#node 
+npm-debug.log
