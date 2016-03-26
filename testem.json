@@ -3,7 +3,7 @@
   "src_files": [
     "node_modules/chai/chai.js",
     "bower_components/jquery/dist/jquery.min.js",
-    "src/main.js",
+    "dist/main.js",
     "test/setup.js",
     "test/*.test.js"
   ],
