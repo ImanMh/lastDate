@@ -29,7 +29,6 @@
   };
   
   $.fn.lastdate.prototype.getOptions = function getOptions (el, options) {
-    console.log(options);
     return options;
   };
   
