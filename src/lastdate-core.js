@@ -8,7 +8,10 @@ module.exports = {
   
   createModel: function () {
     var id = makeRandomId();
-    models[id] = {id: id};
+    models[id] = {
+      id: id,
+      months: []
+    };
     return id;
   },
   

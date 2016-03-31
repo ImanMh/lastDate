@@ -9,6 +9,13 @@ describe('Lastdate core', function () {
       assert.ok(typeof id === 'number');
     });
     
+    it('createModel should create months array', function () {
+      var id = lastdateCore.createModel();
+      var model = lastdateCore.getModel(id);
+      
+      assert.ok(model.months instanceof Array === true);
+    });
+    
     it('should be able to get specific model', function () {
       var id = lastdateCore.createModel();
       assert.ok(typeof id === 'number');
