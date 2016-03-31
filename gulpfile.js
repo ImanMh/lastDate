@@ -19,3 +19,7 @@ gulp.task('subScripts', function() {
 		}))
 		.pipe(gulp.dest('./dist/modules/'));
 });
+
+gulp.task('watchScripts', function () {
+  gulp.watch(['test/*.test.js', 'src/**/*.js'], ['subScripts', 'mainScript']);
+});
