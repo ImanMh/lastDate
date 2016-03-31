@@ -15,7 +15,7 @@
 			options = $.extend({}, defaults, options);
 
 			return $(this).each(function() {
-
+				
 				// Plugin logic
 				// Calling the function:
 				// jQuery(selector).pluginName(options);

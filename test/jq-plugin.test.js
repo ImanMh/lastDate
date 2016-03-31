@@ -40,6 +40,7 @@ describe('jQuery plugin', function () {
       $.lastdateSetup({testTrue: true});
       $target.remove();
     });
+    
   });
   
 });

@@ -2,9 +2,9 @@ var gulp = require('gulp'),
     browserify = require('gulp-browserify');
 
 
-gulp.task('mainScript', function() {
+gulp.task('jqueryPlugin', function() {
 	// Single entry point to browserify 
-	gulp.src('src/main.js')
+	gulp.src('src/lastdate.jquery.js')
 		.pipe(browserify({
 		  debug : true
 		}))
@@ -21,5 +21,5 @@ gulp.task('subScripts', function() {
 });
 
 gulp.task('watchScripts', function () {
-  gulp.watch(['test/*.test.js', 'src/**/*.js'], ['subScripts', 'mainScript']);
+  gulp.watch(['test/*.test.js', 'src/**/*.js'], ['subScripts', 'jqueryPlugin']);
 });
