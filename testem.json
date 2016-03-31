@@ -4,6 +4,7 @@
     "node_modules/chai/chai.js",
     "bower_components/jquery/dist/jquery.min.js",
     "dist/main.js",
+    "dist/modules/*.js",
     "test/setup.js",
     "test/*.test.js"
   ],
