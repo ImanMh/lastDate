@@ -1,3 +1,5 @@
 module.exports = {
-  coreProperty: true
+  createModel: function () {
+    
+  }
 };
