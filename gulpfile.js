@@ -10,3 +10,12 @@ gulp.task('mainScript', function() {
 		}))
 		.pipe(gulp.dest('./dist/'));
 });
+
+gulp.task('subScripts', function() {
+	// Single entry point to browserify 
+	gulp.src('./src/modules/*.js')
+		.pipe(browserify({
+		  debug : true
+		}))
+		.pipe(gulp.dest('./dist/modules/'));
+});
