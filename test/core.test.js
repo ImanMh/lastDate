@@ -23,4 +23,22 @@ describe('Lastdate core', function () {
       assert.ok(lastdateCore.getModel(id).id === id);
     });
   });
+  
+  describe('options', function () {
+    it('getModel method should have config property the same as passed in config object', function () {
+      var configObj = {xxx: 'yyy'},
+          id = lastdateCore.createModel(configObj),
+          model = lastdateCore.getModel(id);
+      
+      assert.deepEqual(model.config, configObj);
+    });
+    
+    it('length of months array should be the same as input config.visibleMonths', function () {
+      var configObj = {visibleMonths: 3},
+          id = lastdateCore.createModel(configObj),
+          model = lastdateCore.getModel(id);
+      
+      assert.equal(model.months.length, configObj.visibleMonths);
+    });
+  });
 });
